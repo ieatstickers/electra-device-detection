@@ -1,0 +1,32 @@
+{
+  "name": "electra/device-detection",
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "https://github.com/ieatstickers/electra-utility.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "https://github.com/ieatstickers/electra-core.git"
+    }
+  ],
+  "require": {
+    "illuminate/database": "*",
+    "ext-json": "*",
+    "filp/whoops": "^2.2@dev",
+    "piwik/device-detector": "dev-master",
+    "electra/core": "dev-master"
+  },
+  "require-dev" : {},
+  "authors": [
+    {
+      "name": "Mike Burke"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Electra\\DeviceDetection\\": "src"
+    }
+  }
+}
