@@ -12,11 +12,10 @@
     }
   ],
   "require": {
-    "illuminate/database": "*",
     "ext-json": "*",
     "filp/whoops": "^2.2@dev",
     "piwik/device-detector": "dev-master",
-    "electra/core": "dev-master"
+    "electra/core": "dev-php8.1-upgrade"
   },
   "require-dev" : {},
   "authors": [
