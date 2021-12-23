@@ -18,7 +18,6 @@
     "piwik/device-detector": "dev-master",
     "electra/core": "dev-master"
   },
-  "require-dev": {},
   "authors": [
     {
       "name": "Mike Burke"
