@@ -1,23 +1,24 @@
 {
   "name": "electra/device-detection",
   "minimum-stability": "dev",
+  "prefer-stable": true,
   "repositories": [
     {
       "type": "vcs",
-      "url":  "https://github.com/ieatstickers/electra-utility.git"
+      "url": "https://github.com/ieatstickers/electra-utility.git"
     },
     {
       "type": "vcs",
-      "url":  "https://github.com/ieatstickers/electra-core.git"
+      "url": "https://github.com/ieatstickers/electra-core.git"
     }
   ],
   "require": {
     "ext-json": "*",
     "filp/whoops": "^2.2@dev",
     "piwik/device-detector": "dev-master",
-    "electra/core": "dev-php8.1-upgrade"
+    "electra/core": "dev-master"
   },
-  "require-dev" : {},
+  "require-dev": {},
   "authors": [
     {
       "name": "Mike Burke"
